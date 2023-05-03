@@ -5,9 +5,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: blueviolet; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center-div{
+  /* background-color: brown; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width:700px) {
+  
+  .center-div{
+    width: 55%;
+  }
+  
+}
+
+.maincontainer{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  height: 500px;
+  width: 500px;
+  align-content: center;
+  ;
+}
+
+.heading{
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  width: 500px;
+  text-align: center;
+  background-color: cadetblue;
+}
+
+.inputcontainer input{
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  width: 15rem;
+  height: auto;
+  padding: 10px;
+  /* border: none; */
+  text-decoration: underline;
+  /* text-align: center; */
+}
+
+.buttoncontainer{
+  position: absolute;
+  top: 1.8rem;
+  left: 22rem;
+  height: 40px;
+  width: 40px;
+  padding: 1px;
+  border-radius: 49%;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: yellow;
+}
+
+.delete-btn{
+  /* height: 10px; */
+  width: 40px;
+  padding: 0px 5px 5px;
+  font-size: 30px;
+  border-radius: 49%;
+  margin: 0px 15px 10px 0px ;
+  font-weight: bolder;
+ color: black;
+  /* background-color: black; */
+}
+
+.buttoncontainer:hover{
+  background-color: green;
+  height: 45px;
+  width: 45px;
+  color: white;  
+}
+
+li{
+  /* margin: 5px; */
+  margin: 5px 0px 15px;
+  text-transform: capitalize;
+
+}
+
+.delete-btn:hover{
+  background-color: red;
+  color: black;
+  cursor: pointer;
+}
+.rotate-btn{
+  transform: rotate(40deg);
+}
+.listcontainer{
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  height: auto;
+  width: auto;
+  /* background-color: antiquewhite; */
+}
+
+
+
