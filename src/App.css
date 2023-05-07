@@ -12,7 +12,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: aqua;
+  background-color: rgb(52, 5, 72);
 }
 
 .heading {
@@ -39,6 +39,7 @@ img {
   padding: 2rem;
   border-radius: 3rem;
   border-style: double;
+  border-color: whitesmoke;
 }
 
 .container {
@@ -94,9 +95,11 @@ button:hover {
   display: flex;
   justify-content: space-around;
 
-  min-width: 30rem;
+  min-width: 35rem;
   height: 3.2rem;
-  padding: 0.5rem 0.5rem 2rem -0.5rem;
+  /* padding: 0.5rem 0.5rem 2rem -0.5rem; */
+  /* padding-left: 0.2rem; */
+  padding: 0.5rem;
   line-height: 1.42;
   border: 2px double white;
   margin-top: 0.5rem;
@@ -111,7 +114,8 @@ button:hover {
 
 
 .list_items:hover {
-  background-color: skyblue;
+  background-color: rgb(26, 2, 31);
+  color: white;
 }
 
 .delete_span {

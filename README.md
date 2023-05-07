@@ -1,3 +1,9 @@
+TodoList using React Js
+
+              A todo list app is a simple application that allows users to create and manage tasks. The app typically includes a form for adding new tasks, a list for displaying the tasks, and functionality for marking tasks as complete or deleting them. and update them. Here, fetch data using API and post method. update data using PUT method.  Some Icons also added using Material UI.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
