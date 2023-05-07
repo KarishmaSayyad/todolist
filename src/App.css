@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: aqua;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  margin-top: -4rem;
+  background: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+img {
+  width: 10rem;
+  height: 10rem;
+  margin-left: -15.5rem;
+}
+
+.main_container {
+  min-height: 100v;
+  width: 50rem;
+  background-color: violet;
+
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  border-style: double;
+}
+
+.container {
+  text-align: center;
+  margin-top: 9rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+input {
+  min-width: 25rem;
+  height: 3rem;
+  padding: 1rem 1.2rem;
+  line-height: 1.42;
+  margin-bottom: 1rem;
+  font-size: 13px;
+
+  border: 2px;
+
+}
+
+@media (max-width:600px) {
+  body {
+    width: 5opx;
   }
-  to {
-    transform: rotate(360deg);
+
+  .heading {
+    left: 33%;
   }
+}
+
+.chk_btn {
+  margin-left: 6px;
+  height: 3rem;
+  padding: 0.2rem;
+
+}
+
+.add_btn {
+  margin-left: 5px;
+  min-width: 3rem;
+  height: 3rem;
+  padding: 0.2rem;
+  font-size: large;
+}
+
+button:hover {
+  background-color: rgb(211, 197, 197);
+}
+
+.list_items {
+  display: flex;
+  justify-content: space-around;
+
+  min-width: 30rem;
+  height: 3.2rem;
+  padding: 0.5rem 0.5rem 2rem -0.5rem;
+  line-height: 1.42;
+  border: 2px double white;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.list {
+  display: grid;
+  justify-content: center;
+}
+
+
+
+.list_items:hover {
+  background-color: skyblue;
+}
+
+.delete_span {
+  display: inline-flex;
+  justify-content: right;
+  margin-left: 1rem;
+}
+
+.checkcircle {
+  margin-right: 7px;
+  size: 13px;
+}
+
+.checkcircle:hover {
+  border-radius: 50%;
+  background-color: green;
+}
+
+.del_icon:hover {
+  background-color: red;
+}
+
+.data_items {
+  margin-right: auto;
+  font-size: 13px;
+
 }

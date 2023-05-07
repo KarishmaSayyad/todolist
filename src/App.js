@@ -1,11 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Demo from './Demo';
+import Todo from './Todo';
+import Dum from './Dum';
 
 function App() {
+
+
   return (
-    <Demo/>
-   
+    <>
+      <Todo />
+    </>
   );
 }
 
